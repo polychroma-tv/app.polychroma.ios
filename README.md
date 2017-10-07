@@ -5,5 +5,5 @@ Version 1.0:
 - Initial release
 
 Requirements
-- Android 4.0.3
+- iOS 6.0 or later
 - Compatible with iPhone & iPad
