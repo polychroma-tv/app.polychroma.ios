@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document initialViewController="3" propertyAccessControl="none" systemVersion="13A558" targetRuntime="iOS.CocoaTouch" toolsVersion="4488.2" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0">
+	<dependencies>
+		<development defaultVersion="4200" identifier="xcode" version="5000"/>
+		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+	</dependencies>
+	<resources/>
+	<scenes>
+		<scene sceneID="1">
+			<objects>
+				<navigationController definesPresentationContext="YES" id="3" sceneMemberID="viewController" storyboardIdentifier="Scene1">
+					<connections>
+						<segue destination="8" id="18" kind="relationship" relationship="rootViewController"/>
+					</connections>
+					<navigationBar clipsSubviews="YES" contentMode="scaleToFill" id="4" key="navigationBar" opaque="NO" translucent="NO"/>
+					<tabBarItem id="5" key="tabBarItem" title="Player"/>
+				</navigationController>
+				<placeholder id="2" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder"/>
+			</objects>
+			<point key="canvasLocation" x="653" y="0"/>
+		</scene>
+		<scene sceneID="6">
+			<objects>
+				<customObject customClass="WebViewDelegate" id="12">
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="openLinksInSafari" type="boolean" value="NO"/>
+						<userDefinedRuntimeAttribute keyPath="showActivityIndicator" type="boolean" value="YES"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<customObject customClass="WebViewDataProvider" id="14"/>
+				<placeholder id="7" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder"/>
+				<viewController automaticallyAdjustsScrollViewInsets="NO" customClass="ViewControllerPlayer" hidesBottomBarWhenPushed="YES" id="8" sceneMemberID="viewController" title="Player" userLabel="Player">
+					<connections>
+						<outlet destination="9" id="16" property="contentView"/>
+						<outlet destination="10" id="11" property="webView"/>
+						<outlet destination="14" id="17" property="webViewDataProvider"/>
+					</connections>
+					<simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="originalSceneID" type="string" value="Scene1"/>
+					</userDefinedRuntimeAttributes>
+					<view alpha="1" contentMode="scaleToFill" id="9" key="view" tag="100" userInteractionEnabled="true" userLabel="Ansicht">
+						<autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+						<color alpha="1" blue="0" colorSpace="calibratedRGB" green="0" key="backgroundColor" red="0"/>
+						<rect height="320" key="frame" width="568" x="0" y="0"/>
+						<subviews>
+							<webView alpha="1" clipsSubviews="YES" id="10" opaque="NO" tag="101" userInteractionEnabled="true">
+								<autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+								<color alpha="1" blue="0.039216" colorSpace="calibratedRGB" green="0.039216" key="backgroundColor" red="0.039216"/>
+								<connections>
+									<outlet destination="14" id="15" property="dataProvider"/>
+									<outlet destination="12" id="13" property="delegate"/>
+								</connections>
+								<dataDetectorType key="dataDetectorType"/>
+								<rect height="320" key="frame" width="568" x="0" y="0"/>
+								<userDefinedRuntimeAttributes>
+									<userDefinedRuntimeAttribute keyPath="URLString" type="string" value="http://tv.polychroma.co/mobile/"/>
+								</userDefinedRuntimeAttributes>
+							</webView>
+						</subviews>
+					</view>
+				</viewController>
+			</objects>
+			<point key="canvasLocation" x="1129" y="0"/>
+		</scene>
+	</scenes>
+	<simulatedMetricsContainer>
+		<simulatedOrientationMetrics key="orientation"/>
+		<simulatedScreenMetrics key="destination"/>
+		<simulatedStatusBarMetrics key="statusBar"/>
+	</simulatedMetricsContainer>
+</document>

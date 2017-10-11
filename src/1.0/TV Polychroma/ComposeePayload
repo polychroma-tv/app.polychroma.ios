@@ -1,0 +1,549 @@
+{
+	"projectName": "TV Polychroma",
+	"files": [
+		"TV Polychroma/com.compose-mac.NSStringPunycodeAdditions",
+		"TV Polychroma/com.compose-mac.UIWebViewURLString",
+		"TV Polychroma/com.compose-mac.WebViewDataProvider",
+		"TV Polychroma/com.compose-mac.DataSourceBase",
+		"TV Polychroma/com.compose-mac.WebViewDelegate",
+		"TV Polychroma/com.compose-mac.StatusBarBackgroundViewSystem6",
+		"TV Polychroma/com.compose-mac.SimpleScrollView",
+		"TV Polychroma/com.compose-mac.LayoutResolver",
+		"TV Polychroma/AppIcon60.png",
+		"TV Polychroma/AppIcon60@2x.png",
+		"TV Polychroma/AppIcon57.png",
+		"TV Polychroma/AppIcon57@2x.png",
+		"TV Polychroma/Default@2x.png",
+		"TV Polychroma/Default-375w-667h@2x~iphone.png",
+		"TV Polychroma/Default-414w-736h@3x~iphone.png",
+		"TV Polychroma/Default-568h@2x.png",
+		"TV Polychroma/TV Polychroma-Info.plist",
+		"TV Polychroma/Main.storyboard",
+		"TV Polychroma/GlobalObjects.xib",
+		"TV Polychroma/AppDelegate.h",
+		"TV Polychroma/AppDelegate.m",
+		"TV Polychroma/ViewControllerPlayer.h",
+		"TV Polychroma/ViewControllerPlayer.m",
+		"TV Polychroma/en.lproj/InfoPlist.strings",
+		"TV Polychroma.xcodeproj/project.pbxproj",
+		"Licences.html",
+		"TV Polychroma/ComposeePayload"
+	],
+	"referencedFiles": [],
+	"buildFileItems": {
+		"ABE6158115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158015E534DA0062F537"
+		},
+		"ABE6158315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158215E534DA0062F537"
+		},
+		"ABE6158515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158415E534DA0062F537"
+		},
+		"ABE6158715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158615E534DA0062F537"
+		},
+		"ABE6158915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158815E534DA0062F537"
+		},
+		"ABE6158B15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158A15E534DA0062F537"
+		},
+		"ABE6158D15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158C15E534DA0062F537"
+		},
+		"ABE6158F15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158E15E534DA0062F537"
+		},
+		"ABE6159115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159015E534DA0062F537"
+		},
+		"ABE6159315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159215E534DA0062F537"
+		},
+		"ABE6159515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159415E534DA0062F537"
+		},
+		"ABE6159715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159615E534DA0062F537"
+		},
+		"ABE6159915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159815E534DA0062F537"
+		},
+		"ABE6159B15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159A15E534DA0062F537"
+		},
+		"ABE6159D15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159C15E534DA0062F537"
+		},
+		"ABE6159F15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159E15E534DA0062F537"
+		},
+		"ABE615A115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A015E534DA0062F537"
+		},
+		"ABE615A315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A215E534DA0062F537"
+		},
+		"ABE615A515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A415E534DA0062F537"
+		},
+		"ABE615A715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A615E534DA0062F537"
+		}
+	},
+	"fileReferenceItems": {
+		"ABE615A815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "ViewControllerPlayer.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>"
+		},
+		"ABE615A915E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.NSStringPunycodeAdditions/NSStringPunycodeAdditions.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "NSStringPunycodeAdditions.h"
+		},
+		"ABE615AA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDataProvider/WebViewDataProvider.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "WebViewDataProvider.h"
+		},
+		"ABE615AB15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.DataSourceBase/DataSourceBase.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "DataSourceBase.h"
+		},
+		"ABE615AC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.StatusBarBackgroundViewSystem6/UIView+StatusBarBackgroundViewSystem6.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "UIView+StatusBarBackgroundViewSystem6.h"
+		},
+		"ABE615AD15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.SimpleScrollView/SimpleScrollView.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "SimpleScrollView.h"
+		},
+		"ABE615AE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/LayoutResolver.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "LayoutResolver.h"
+		},
+		"ABE6158015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "ViewControllerPlayer.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>"
+		},
+		"ABE6158215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.NSStringPunycodeAdditions/NSStringPunycodeAdditions.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "NSStringPunycodeAdditions.m"
+		},
+		"ABE6158415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIWebViewURLString/UIWebView+URLString.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIWebView+URLString.m"
+		},
+		"ABE6158615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDataProvider/WebViewDataProvider.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "WebViewDataProvider.m"
+		},
+		"ABE6158815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.DataSourceBase/DataSourceBase.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "DataSourceBase.m"
+		},
+		"ABE6158A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDelegate/WebViewDelegate.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "WebViewDelegate.m"
+		},
+		"ABE6158C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.StatusBarBackgroundViewSystem6/UIView+StatusBarBackgroundViewSystem6.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIView+StatusBarBackgroundViewSystem6.m"
+		},
+		"ABE6158E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.SimpleScrollView/SimpleScrollView.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SimpleScrollView.m"
+		},
+		"ABE6159015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/LayoutResolver.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "LayoutResolver.m"
+		},
+		"ABE6159215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/UIView+FindLowestSubview.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIView+FindLowestSubview.m"
+		},
+		"ABE6159415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon60.png",
+			"sourceTree": "<group>"
+		},
+		"ABE6159615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon60@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE6159815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon57.png",
+			"sourceTree": "<group>"
+		},
+		"ABE6159A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon57@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE6159C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE6159E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default-375w-667h@2x~iphone.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615A015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default-414w-736h@3x~iphone.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615A215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default-568h@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615AF15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "ar",
+			"path": "ar.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "bn",
+			"path": "bn.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B115E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "de",
+			"path": "de.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "en",
+			"path": "en.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B315E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "es",
+			"path": "es.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "fr",
+			"path": "fr.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B515E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "hi",
+			"path": "hi.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "ja",
+			"path": "ja.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B715E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "pt",
+			"path": "pt.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "zh",
+			"path": "zh.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615B915E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "it",
+			"path": "it.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615BA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "nl",
+			"path": "nl.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615BB15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "pl",
+			"path": "pl.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE615BC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "en",
+			"path": "en.lproj/InfoPlist.strings",
+			"sourceTree": "<group>"
+		}
+	},
+	"projectGroupItems": [
+		"ABE6159415E534DA0062F537",
+		"ABE6159615E534DA0062F537",
+		"ABE6159815E534DA0062F537",
+		"ABE6159A15E534DA0062F537",
+		"ABE6159C15E534DA0062F537",
+		"ABE6159E15E534DA0062F537",
+		"ABE615A015E534DA0062F537",
+		"ABE615A215E534DA0062F537",
+		"ABE615A815E534DA0062F537",
+		"ABE6158015E534DA0062F537"
+	],
+	"supportingFilesGroupItems": [
+		"ABE615A615E534DA0062F537"
+	],
+	"frameworksGroupItems": [],
+	"otherGroups": {
+		"ABE615C515E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615BD15E534DA0062F537",
+				"ABE615BE15E534DA0062F537",
+				"ABE615BF15E534DA0062F537",
+				"ABE615C015E534DA0062F537",
+				"ABE615C115E534DA0062F537",
+				"ABE615C215E534DA0062F537",
+				"ABE615C315E534DA0062F537",
+				"ABE615C415E534DA0062F537"
+			],
+			"name": "Plug-ins",
+			"path": "TV Polychroma",
+			"sourceTree": "<group>"
+		}
+	},
+	"pluginGroups": {
+		"ABE615BD15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158215E534DA0062F537",
+				"ABE615A915E534DA0062F537"
+			],
+			"name": "com.compose-mac.NSStringPunycodeAdditions",
+			"sourceTree": "<group>"
+		},
+		"ABE615BE15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158415E534DA0062F537"
+			],
+			"name": "com.compose-mac.UIWebViewURLString",
+			"sourceTree": "<group>"
+		},
+		"ABE615BF15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158615E534DA0062F537",
+				"ABE615AA15E534DA0062F537"
+			],
+			"name": "com.compose-mac.WebViewDataProvider",
+			"sourceTree": "<group>"
+		},
+		"ABE615C015E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158815E534DA0062F537",
+				"ABE615AB15E534DA0062F537",
+				"ABE615A415E534DA0062F537"
+			],
+			"name": "com.compose-mac.DataSourceBase",
+			"sourceTree": "<group>"
+		},
+		"ABE615C115E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158A15E534DA0062F537"
+			],
+			"name": "com.compose-mac.WebViewDelegate",
+			"sourceTree": "<group>"
+		},
+		"ABE615C215E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158C15E534DA0062F537",
+				"ABE615AC15E534DA0062F537"
+			],
+			"name": "com.compose-mac.StatusBarBackgroundViewSystem6",
+			"sourceTree": "<group>"
+		},
+		"ABE615C315E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158E15E534DA0062F537",
+				"ABE615AD15E534DA0062F537"
+			],
+			"name": "com.compose-mac.SimpleScrollView",
+			"sourceTree": "<group>"
+		},
+		"ABE615C415E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6159015E534DA0062F537",
+				"ABE6159215E534DA0062F537",
+				"ABE615AE15E534DA0062F537"
+			],
+			"name": "com.compose-mac.LayoutResolver",
+			"sourceTree": "<group>"
+		}
+	},
+	"otherGroupsInRootList": [
+		"ABE615C515E534DA0062F537"
+	],
+	"sourcesBuildPhaseItems": [
+		"ABE6158115E534DA0062F537",
+		"ABE6158315E534DA0062F537",
+		"ABE6158515E534DA0062F537",
+		"ABE6158715E534DA0062F537",
+		"ABE6158915E534DA0062F537",
+		"ABE6158B15E534DA0062F537",
+		"ABE6158D15E534DA0062F537",
+		"ABE6158F15E534DA0062F537",
+		"ABE6159115E534DA0062F537",
+		"ABE6159315E534DA0062F537"
+	],
+	"resourcesBuildPhaseItems": [
+		"ABE6159515E534DA0062F537",
+		"ABE6159715E534DA0062F537",
+		"ABE6159915E534DA0062F537",
+		"ABE6159B15E534DA0062F537",
+		"ABE6159D15E534DA0062F537",
+		"ABE6159F15E534DA0062F537",
+		"ABE615A115E534DA0062F537",
+		"ABE615A315E534DA0062F537",
+		"ABE615A515E534DA0062F537",
+		"ABE615A715E534DA0062F537"
+	],
+	"frameworksBuildPhaseItems": [],
+	"variantGroupItems": {
+		"ABE615A415E534DA0062F537": {
+			"isa": "PBXVariantGroup",
+			"children": [
+				"ABE615AF15E534DA0062F537",
+				"ABE615B015E534DA0062F537",
+				"ABE615B115E534DA0062F537",
+				"ABE615B215E534DA0062F537",
+				"ABE615B315E534DA0062F537",
+				"ABE615B415E534DA0062F537",
+				"ABE615B515E534DA0062F537",
+				"ABE615B615E534DA0062F537",
+				"ABE615B715E534DA0062F537",
+				"ABE615B815E534DA0062F537",
+				"ABE615B915E534DA0062F537",
+				"ABE615BA15E534DA0062F537",
+				"ABE615BB15E534DA0062F537"
+			],
+			"name": "DataSourceBaseLocalized.strings",
+			"path": "com.compose-mac.DataSourceBase",
+			"sourceTree": "<group>"
+		},
+		"ABE615A615E534DA0062F537": {
+			"isa": "PBXVariantGroup",
+			"children": [
+				"ABE615BC15E534DA0062F537"
+			],
+			"name": "InfoPlist.strings",
+			"path": "",
+			"sourceTree": "<group>"
+		}
+	},
+	"librarySearchPaths": []
+}
